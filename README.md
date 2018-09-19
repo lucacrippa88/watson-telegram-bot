@@ -1,3 +1,3 @@
-# Create a Watson Assistant webapp with no code skills
+# Create a Watson Assistant web app with no code skills
 
 To be updated.
