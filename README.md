@@ -1,1 +1,1 @@
-# watson-assistant-node-red
+#Create a Watson Assistant webapp with no code skills
