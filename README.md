@@ -20,4 +20,4 @@ This is not an official asset. It has been created by me and it's not intended f
 
 ## License
 
-his project uses the Apache License Version 2.0 software license.
+his project uses the Apache License Version 2.0 software license. https://github.com/lucacrippa88/watson-assistant-nodered/blob/master/LICENSE
