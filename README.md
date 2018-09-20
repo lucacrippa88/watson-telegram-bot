@@ -1,32 +1,44 @@
 # Create a Watson Assistant web app with no codeing skills
 
 This tutorial will show how to integrate a Chatbot made with Watson Assistant into a web application built with Node-RED. No coding skills are needed!
-This tutorial collects all experience gained during ASL 2017-2018 sessions.
+This tutorial collects all experience gained on Watson Assistant and Node-RED during ASL 2017-2018 sessions.
 
 ## Prerequisites
+
 Prerequisites to get this tutorial done are:
 1. An IBM Cloud account.
 2. Choose the option that fits:
   - Do you want to have a custom Virtual Assistant? -> Go to step 3.
   - Do you just want to know how it works the Node-RED Watson Assistant integration? -> Skip step 3 and go to step 4.
 3. Make sure you completed this tutorial to have a custom Virtual Assistant with Watson Assistant: https://github.com/lucacrippa88/watson-assistant-training
-4. Done with prerequisites!
+4. You are all done with prerequisites!
 
 ## How to expect from this tutorial
-This tutorial will show you how to create a simple web-based interface for your Virtual Assistant. The only code you will see is just copy-and-pasted from this page. All other technical activities are based on the native Node-RED flow interface.
 
-### Features
+This tutorial will show you how to create a simple web-based interface for your Virtual Assistant. The only code you will see is just copy-and-pasted from this page. All other technical activities are based on the native Node-RED flow interface.
 
 ## Tutorials
 
 ### Steps
+
 Follow these steps to complete the tutorial.
+
+#### Step 1
+#### Step 2
+#### Step 3
+#### Step 4
 
 ### Videos
 
+Almost 2 videos are coming (italian).
+
 ## Notes
 
+
+
 ## Outcomes
+
+
 
 ## Disclaimer
 
