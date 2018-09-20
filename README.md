@@ -7,16 +7,22 @@ This tutorial collects all experience gained during ASL 2017-2018 sessions.
 Prerequisites to get this tutorial done are:
 1. An IBM Cloud account.
 2. Choose the option that fits:
-  - Do you want to have a custom Watson Assistant? -> Go to step 3.
+  - Do you want to have a custom Virtual Assistant? -> Go to step 3.
   - Do you just want to know how it works the Node-RED Watson Assistant integration? -> Skip step 3 and go to step 4.
-3. Make sure you completed this tutorial to have Watson Assistant customized: https://github.com/lucacrippa88/watson-assistant-training
-4. Done.
+3. Make sure you completed this tutorial to have a custom Virtual Assistant with Watson Assistant: https://github.com/lucacrippa88/watson-assistant-training
+4. Done with prerequisites!
 
-## How to use
+## How to expect from this tutorial
+This tutorial will show you how to create a simple web-based interface for your Virtual Assistant. The only code you will see is just copy-and-pasted from this page. All other technical activities are based on the native Node-RED flow interface.
 
-## Features
+### Features
 
 ## Tutorials
+
+### Steps
+Follow these steps to complete the tutorial.
+
+### Videos
 
 ## Notes
 
