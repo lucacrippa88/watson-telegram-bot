@@ -17,6 +17,8 @@ Prerequisites to get this tutorial done are:
 
 This tutorial will show you how to create a simple web-based interface for your Virtual Assistant. The only code you will see is just copy-and-pasted from this page. All other technical activities are based on the native Node-RED flow interface.
 
+Note: add "watson assistant" node description.
+
 ## Tutorials
 
 ### Steps
