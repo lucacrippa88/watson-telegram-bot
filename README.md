@@ -50,10 +50,12 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 
 ### Videos
 
-Almost 2 videos are coming (italian).
+Almost 2 videos are coming (Italian).
+
 
 ## Notes
 
+Watson Assistant is being continuously updated. All info and code in these repos should be compatible with new versions of the APIs, even if some notation could change (e.g. "Workspaces" renamed "Skills").
 
 
 ## Outcomes
