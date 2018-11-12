@@ -56,6 +56,8 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 
 ### Advanced Telegram Watson Assistant integration
 
+Context: the Virtual Assistant has been created to support users of a retail shop, both online and physical store. You can find here the trained assistant: https://github.com/lucacrippa88/watson-assistant-training/tree/master/online-shop-virtual-assistant
+
 #### Step 6 - Adding visual recognition
 A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
 
