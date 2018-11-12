@@ -38,7 +38,7 @@ Follow these steps to complete the tutorial.
 - Then install "node-red-contrib-telegrambot"
 
 #### Step 4 - Use Telegram nodes
-- Enter /watson as command to activate the "Telegram receiver" node
+- Add the "Telegram receiver" node
 - Then, add the bot created by inserting the name and the token
 - Then connect "Telegram receiver" to "Telegram sender" node
 
@@ -49,7 +49,7 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 
 - Telegram receiver: already set-up
 - Function 1: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function1.js)
-- Assistant: to be updated...
+- Assistant: add Username & Password of the service, then the Skill ID (Workspace ID)
 - Function 2: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function2.js)
 - Telegram sender: already set-up
 
