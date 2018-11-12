@@ -34,7 +34,9 @@ Select Node-RED Starter boilerplate on IBM Cloud catalog. Enter needed data and 
 Once you are in the main RED dashboard of your app, click in install tab and search for telegram. Then install "node-red-contrib-telegrambot".
 
 #### Step 4 - Use Telegram nodes
-Enter /watson as command to activate the "Telegram Command" node. Then, add the bot created by inserting the name and the token.
+Enter /watson as command to activate the "Telegram receiver" node. Then, add the bot created by inserting the name and the token. Then connect "Telegram receiver" to "Telegram sender" node.
+
+Note: to start interacting with your bot, type /start, then type /watson and your sentence.
 
 ### Videos
 
