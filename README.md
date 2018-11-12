@@ -62,7 +62,7 @@ Context: the Virtual Assistant has been created to support users of a retail sho
 A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
 
 - Create a Visual Recognition service on IBM Cloud
-- Connect to the main Node-RED application and restage it
+- Connect the Visual Regognition service to the main Node-RED application and restage it
 
 
 ### Videos
