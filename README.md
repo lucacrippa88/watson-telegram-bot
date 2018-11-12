@@ -25,10 +25,11 @@ This tutorial will show you how to create a simple web-based interface for your 
 Follow these steps to complete the tutorial.
 
 #### Step 1 - Create a bot on Telegram
+Search \@BotFather on Telegram search bar and enter the name of the bot. Then, save the token string to use it later.
 
-Search \@BotFather on Telegram search bar. 
+#### Step 2 - Create a Node-RED application
+Select Node-RED Starter boilerplate on IBM Cloud catalog. Enter needed data and click create. You should protect your app with a username and password: you can do so by filling the form once the app is started.
 
-#### Step 2
 #### Step 3
 #### Step 4
 
