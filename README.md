@@ -43,7 +43,7 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 
 - Telegram receiver: already set-up
 - Function 1: use code listed in js folder (link)
-- Assistant: to be updated
+- Assistant: to be updated...
 - Function 2: use code listed in js folder (link)
 - Telegram sender: already set-up
 
