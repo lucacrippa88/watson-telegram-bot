@@ -18,23 +18,29 @@ Prerequisites to get this tutorial done are:
 This tutorial will show you how to create a simple web-based interface for your Virtual Assistant and alternatively a Telegram Bot connected to Watson Assistant. All other technical activities are based on the native Node-RED flow interface.
 
 
-## Tutorials
+## Tutorial
 
-### Steps
+### Basic Telegram Watson Assistant integration
 
 Follow these steps to complete the tutorial.
 
 #### Step 1 - Create a bot on Telegram
-Search \@BotFather on Telegram search bar and enter the name of the bot. Then, save the token string to use it later.
+- Search \@BotFather on Telegram search bar and enter the name of the bot
+- Then, save the token string to use it later
 
 #### Step 2 - Create a Node-RED application
-Select Node-RED Starter boilerplate on IBM Cloud catalog. Enter needed data and click create. You should protect your app with a username and password: you can do so by filling the form once the app is started.
+- Select Node-RED Starter boilerplate on IBM Cloud catalog
+- Enter needed data and click create
+- You should protect your app with a username and password: you can do so by filling the form once the app is started
 
 #### Step 3 - Install Telegram nodes on Node-RED
-Once you are in the main RED dashboard of your app, click in install tab and search for telegram. Then install "node-red-contrib-telegrambot".
+- Once you are in the main RED dashboard of your app, click in install tab and search for telegram
+- Then install "node-red-contrib-telegrambot"
 
 #### Step 4 - Use Telegram nodes
-Enter /watson as command to activate the "Telegram receiver" node. Then, add the bot created by inserting the name and the token. Then connect "Telegram receiver" to "Telegram sender" node.
+- Enter /watson as command to activate the "Telegram receiver" node
+- Then, add the bot created by inserting the name and the token
+- Then connect "Telegram receiver" to "Telegram sender" node
 
 Note: to start interacting with your bot, type /start, then type /watson and your sentence.
 
@@ -42,10 +48,16 @@ Note: to start interacting with your bot, type /start, then type /watson and you
 In order to integrate Watson Assistant in a Telegram bot, some nodes are required: "Telegram receiver", "function", "assistant", "function", "Telegram sender".
 
 - Telegram receiver: already set-up
-- Function 1: use code listed in js folder (link)
+- Function 1: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function1.js)
 - Assistant: to be updated...
-- Function 2: use code listed in js folder (link)
+- Function 2: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function2.js)
 - Telegram sender: already set-up
+
+
+### Advanced Telegram Watson Assistant integration
+
+#### Step 6 - Adding visual recognition
+A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
 
 
 ### Videos
