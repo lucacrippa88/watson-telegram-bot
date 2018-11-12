@@ -15,9 +15,8 @@ Prerequisites to get this tutorial done are:
 
 ## How to expect from this tutorial
 
-This tutorial will show you how to create a simple web-based interface for your Virtual Assistant. The only code you will see is just copy-and-pasted from this page. All other technical activities are based on the native Node-RED flow interface.
+This tutorial will show you how to create a simple web-based interface for your Virtual Assistant and alternatively a Telegram Bot connected to Watson Assistant. All other technical activities are based on the native Node-RED flow interface.
 
-Note: add "watson assistant" node description.
 
 ## Tutorials
 
@@ -25,7 +24,10 @@ Note: add "watson assistant" node description.
 
 Follow these steps to complete the tutorial.
 
-#### Step 1
+#### Step 1 - Create a bot on Telegram
+
+Search \@BotFather on Telegram search bar. 
+
 #### Step 2
 #### Step 3
 #### Step 4
