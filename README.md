@@ -59,6 +59,9 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 #### Step 6 - Adding visual recognition
 A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
 
+- Create a Visual Recognition service on IBM Cloud
+- Connect to the main Node-RED application and restage it
+
 
 ### Videos
 
