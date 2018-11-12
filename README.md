@@ -1,4 +1,4 @@
-# Create a Watson Assistant web app with no codeing skills
+# Create a Watson Assistant web app with no coding skills
 
 This tutorial will show how to integrate a Chatbot made with Watson Assistant into a web application built with Node-RED. No coding skills are needed!
 This tutorial collects all experience gained on Watson Assistant and Node-RED during ASL 2017-2018 sessions.
