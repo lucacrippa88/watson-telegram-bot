@@ -30,7 +30,9 @@ Search \@BotFather on Telegram search bar and enter the name of the bot. Then, s
 #### Step 2 - Create a Node-RED application
 Select Node-RED Starter boilerplate on IBM Cloud catalog. Enter needed data and click create. You should protect your app with a username and password: you can do so by filling the form once the app is started.
 
-#### Step 3
+#### Step 3 - Install Telegram nodes on Node-RED
+Once you are in the main RED dashboard of your app, click in Istall tab and search for telegram. Then install "node-red-contrib-telegrambot".
+
 #### Step 4
 
 ### Videos
