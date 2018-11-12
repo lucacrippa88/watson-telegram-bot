@@ -41,11 +41,11 @@ Note: to start interacting with your bot, type /start, then type /watson and you
 #### Step 5 - Watson Assistant integration
 In order to integrate Watson Assistant in a Telegram bot, some nodes are required: "Telegram receiver", "function", "assistant", "function", "Telegram sender".
 
-Telegram receiver: already set-up
-Function 1: use code listed in js folder (link)
-Assistant: to be updated
-Function 2: use code listed in js folder (link)
-Telegram sender: already set-up
+- Telegram receiver: already set-up
+- Function 1: use code listed in js folder (link)
+- Assistant: to be updated
+- Function 2: use code listed in js folder (link)
+- Telegram sender: already set-up
 
 
 ### Videos
