@@ -6,12 +6,12 @@ This tutorial collects all experience gained on Watson Assistant and Node-RED du
 ## Prerequisites
 
 Prerequisites to get this tutorial done are:
-1. An IBM Cloud account.
+1. An IBM Cloud account
 2. Choose the option that fits:
-  - Do you want to have a custom Virtual Assistant? -> Go to step 3.
-  - Do you just want to know how it works the Node-RED Watson Assistant integration? -> Skip step 3 and go to step 4.
+  - Do you want to have a custom Virtual Assistant? -> Go to step 3
+  - Do you just want to know how it works the Node-RED Watson Assistant integration, of do you already have a trained Virtual Assistant? -> Skip step 3 and go to step 4
 3. Make sure you completed this tutorial to have a custom Virtual Assistant with Watson Assistant: https://github.com/lucacrippa88/watson-assistant-training
-4. You are all done with prerequisites!
+4. You are done with prerequisites!
 
 ## How to expect from this tutorial
 
@@ -56,7 +56,7 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 
 ### Advanced Telegram Watson Assistant integration
 
-Context: the Virtual Assistant has been created to support users of a retail shop, both online and physical store. You can find here the trained assistant: https://github.com/lucacrippa88/watson-assistant-training/tree/master/online-shop-virtual-assistant
+The Virtual Assistant linked below has been created to support users of a retail shop, both online and physical store. You can find here the trained assistant: https://github.com/lucacrippa88/watson-assistant-training/tree/master/online-shop-virtual-assistant
 
 #### Step 6 - Adding visual recognition
 A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
