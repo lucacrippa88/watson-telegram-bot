@@ -62,8 +62,12 @@ The Virtual Assistant linked below has been created to support users of a retail
 A customer could need to gather information on the product he's looking at. By introducing a Watson Visual Recognition integration, your Virtual Assistant can be able to send information about a product in a picture taken on the shop.
 
 - Create a Visual Recognition service on IBM Cloud
-- Connect the Visual Recognition service to the main Node-RED application and restage it
-- ...
+- Optional: connect the Visual Recognition service to the main Node-RED application and restage it
+- Insert API Key and ensure correct Endpoint URL
+- Add a switch as shown in picture to ensure that if content type is "photo" the program goes to Visual Recognition flow
+
+Now you can send a photo to your telegram bot and it will classify the image using Watson Visual Recognition using general classifiers.
+
 
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
