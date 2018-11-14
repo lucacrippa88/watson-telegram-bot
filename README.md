@@ -68,6 +68,8 @@ A customer could need to gather information on the product he's looking at. By i
 
 Now you can send a photo to your telegram bot and it will classify the image using Watson Visual Recognition using general classifiers.
 
+Note that with IBM Watson you can easily train your own classifiers to ensure that the AI Visual Recognition feature will have the right knowledge on your custom problem. In example, do you have an enterprise that creates very particular design furniture? You can train your Visual Recognition classifiers on your design products in order to classify them, understand problems/issues during creation process, auto tag and so on!
+
 
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
