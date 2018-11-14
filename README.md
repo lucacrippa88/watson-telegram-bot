@@ -63,8 +63,10 @@ A customer could need to gather information on the product he's looking at. By i
 
 - Create a Visual Recognition service on IBM Cloud
 - Optional: connect the Visual Recognition service to the main Node-RED application and restage it
-- Insert API Key and ensure correct Endpoint URL
 - Add a switch as shown in picture to ensure that if content type is "photo" the program goes to Visual Recognition flow
+- Function 3: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function3.js)
+- Visual Recognition node: insert API Key and ensure correct Endpoint URL
+- Function 4: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function4.js)
 
 Now you can send a photo to your telegram bot and it will classify the image using Watson Visual Recognition using general classifiers.
 
