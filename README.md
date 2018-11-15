@@ -39,10 +39,8 @@ Follow these steps to complete the tutorial.
 
 #### Step 4 - Use Telegram nodes
 - Add the "Telegram receiver" node
-- Then, add the bot created by inserting the name and the token
+- Then, add the bot created by inserting the name and the token received from \@BotFather
 - Then connect "Telegram receiver" to "Telegram sender" node
-
-Note: to start interacting with your bot, type /start, then type /watson and your sentence.
 
 #### Step 5 - Watson Assistant integration
 In order to integrate Watson Assistant in a Telegram bot, some nodes are required: "Telegram receiver", "function", "assistant", "function", "Telegram sender".
