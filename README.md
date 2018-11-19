@@ -75,6 +75,10 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
 
 
+#### Step 8 - Adding Watson Text to Speech
+An interesting feature that can be easily implemented is the Text to Speech service: this will send you output messages as audio messages, so you will be able to listen to your Assistant answers.
+
+
 ### Videos
 
 Almost 5 videos are coming (Italian).
