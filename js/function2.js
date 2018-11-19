@@ -1,4 +1,4 @@
-/* Function2.js
+/* Function9.js
  * Prepare message to be sent to Telegram bot
  * v 1.0
  * November 2018
