@@ -54,7 +54,7 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 - Telegram receiver: already set-up
 - Function 1: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function1.js)
 - Assistant: add Username & Password of the service, then the Skill ID (Workspace ID)
-- Function 2: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function2.js)
+- Function 9: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function9.js)
 - Telegram sender: already set-up
 
 <img src="img/chat.png" width="600">
@@ -71,7 +71,7 @@ A customer could need to gather information on the product he's looking at. By i
 - Optional: connect the Visual Recognition service to the main Node-RED application and restage it
 - Add a switch as shown in picture to ensure that if content type is "photo" the program goes to Visual Recognition flow
 - Function 3: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function3.js)
-- Visual Recognition node: insert API Key and ensure correct Endpoint URL
+- Visual Recognition: insert API Key and ensure correct Endpoint URL of Visual Recognition service (provided by IBM Cloud)
 - Function 4: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function4.js)
 
 <img src="img/visualrec.png" width="600">
@@ -83,6 +83,13 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
+
+- Function 5: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function5.js)
+- Language Translator: set the API Key of Language Translator service (provided by IBM Cloud)
+- Function 6: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function6.js)
+- Telegram sender: already setup (copy and paste the previous one)
+- Function 7: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function7.js)
+- Assistant: add Username & Password of the service, then the Skill ID (Workspace ID)
 
 <img src="img/translate.png" width="700">
 
