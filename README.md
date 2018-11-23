@@ -45,7 +45,7 @@ Note: if the Telegram nodes installation fails, please retry a couple of times.
 - Add the "Telegram receiver" node
 - Then, add the bot created by inserting the name and the token received from \@BotFather by clicking on the pencil icon
 
-<img src="img/start.png" width="200">
+<img src="img/start.png" width="250">
 
 #### Step 5 - Watson Assistant integration
 In order to integrate Watson Assistant in a Telegram bot, some nodes are required: "Telegram receiver", "function", "assistant", "function", "Telegram sender".
