@@ -44,6 +44,7 @@ Note: if the Telegram nodes installation fails, please retry a couple of times.
 #### Step 4 - Use Telegram nodes
 - Add the "Telegram receiver" node
 - Then, add the bot created by inserting the name and the token received from \@BotFather by clicking on the pencil icon
+- Setup the switch node: first output should be set == "photo", second == "voice" (to be check), third to otherwise.
 
 <img src="img/start.png" width="250">
 
@@ -83,7 +84,7 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
 
-<img src="img/translate.png" width="650">
+<img src="img/translate.png" width="700">
 
 
 #### Step 8 - Adding Watson Text to Speech
@@ -92,7 +93,7 @@ An interesting feature that can be easily implemented is the Text to Speech serv
 <img src="img/speak.png" width="500">
 
 
-### Videos
+## Videos
 
 Almost 5 videos are coming (Italian).
 
