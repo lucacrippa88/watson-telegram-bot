@@ -1,7 +1,11 @@
-# Create a Watson Assistant web app with no coding skills
+# Create a Watson Assistant based Telegram bot with no coding skills
 
-This tutorial will show how to integrate a Chatbot made with Watson Assistant into a web application built with Node-RED. No coding skills are needed!
+This tutorial will show how to integrate a Chatbot made with Watson Assistant into a Telegram bot built with Node-RED. No coding skills are needed!
 This tutorial collects all experience gained on Watson Assistant and Node-RED during ASL 2017-2018 sessions.
+
+## Features
+
+The final bot will implement natural language chat, vocal message interactions, visual recognition on photos and sentences translation.
 
 ## Prerequisites
 
@@ -83,6 +87,8 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
+
+Note: this step needs to train a Watson Assistant to understand translation scope. Please refer to this link to have it done (link to come!).
 
 - Function 5: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function5.js)
 - Language Translator: set the API Key of Language Translator service (provided by IBM Cloud)
