@@ -27,7 +27,8 @@ Follow these steps to complete the tutorial.
 #### Step 1 - Create a bot on Telegram
 - Search \@BotFather on Telegram search bar, type /start and follow the instruction provided. Type /newbot and enter the name of the bot (it must end with "bot")
 - Then, save the token string to use it later in Node-RED
-<img src="img/botfather.png" width="500">
+
+<img src="img/botfather.png" width="550">
 
 #### Step 2 - Create a Node-RED application
 - Select Node-RED Starter boilerplate on IBM Cloud catalog
@@ -82,7 +83,7 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
 
-<img src="img/translate.png" width="600">
+<img src="img/translate.png" width="650">
 
 
 #### Step 8 - Adding Watson Text to Speech
