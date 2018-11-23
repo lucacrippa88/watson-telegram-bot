@@ -27,7 +27,7 @@ Follow these steps to complete the tutorial.
 #### Step 1 - Create a bot on Telegram
 - Search \@BotFather on Telegram search bar, type /start and follow the instruction provided. Type /newbot and enter the name of the bot (it must end with "bot")
 - Then, save the token string to use it later in Node-RED
-<img src="img/botfather.png" width="400">
+<img src="img/botfather.png" width="500">
 
 #### Step 2 - Create a Node-RED application
 - Select Node-RED Starter boilerplate on IBM Cloud catalog
@@ -42,9 +42,9 @@ Note: if the Telegram nodes installation fails, please retry a couple of times.
 
 #### Step 4 - Use Telegram nodes
 - Add the "Telegram receiver" node
-- Then, add the bot created by inserting the name and the token received from \@BotFather
+- Then, add the bot created by inserting the name and the token received from \@BotFather by clicking on the pencil icon
 
-<img src="img/start.png" width="150">
+<img src="img/start.png" width="200">
 
 #### Step 5 - Watson Assistant integration
 In order to integrate Watson Assistant in a Telegram bot, some nodes are required: "Telegram receiver", "function", "assistant", "function", "Telegram sender".
@@ -55,7 +55,7 @@ In order to integrate Watson Assistant in a Telegram bot, some nodes are require
 - Function 2: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function2.js)
 - Telegram sender: already set-up
 
-<img src="img/chat.png" width="400">
+<img src="img/chat.png" width="600">
 
 
 ### Advanced Telegram Watson Assistant integration
@@ -72,7 +72,7 @@ A customer could need to gather information on the product he's looking at. By i
 - Visual Recognition node: insert API Key and ensure correct Endpoint URL
 - Function 4: use code listed in js folder (https://github.com/lucacrippa88/watson-assistant-nodered/tree/master/js/function4.js)
 
-<img src="img/visualrec.png" width="400">
+<img src="img/visualrec.png" width="600">
 
 Now you can send a photo to your telegram bot and it will classify the image using Watson Visual Recognition using general classifiers.
 
@@ -82,13 +82,13 @@ Note that with IBM Watson you can easily train your own classifiers to ensure th
 #### Step 7 - Adding Watson Translator
 Another useful feature to be integrated inside the Telegram bot is the language translation. An user can ask the bot to translate a sentence in real time leveraging on Watson Translator API.
 
-<img src="img/translate.png" width="400">
+<img src="img/translate.png" width="600">
 
 
 #### Step 8 - Adding Watson Text to Speech
 An interesting feature that can be easily implemented is the Text to Speech service: this will send you output messages as audio messages, so you will be able to listen to your Assistant answers.
 
-<img src="img/speak.png" width="400">
+<img src="img/speak.png" width="500">
 
 
 ### Videos
