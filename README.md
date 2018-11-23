@@ -27,6 +27,7 @@ Follow these steps to complete the tutorial.
 #### Step 1 - Create a bot on Telegram
 - Search \@BotFather on Telegram search bar, type /start and follow the instruction provided. Type /newbot and enter the name of the bot (it must end with "bot")
 - Then, save the token string to use it later in Node-RED
+![alt text](img/botfather.png)
 
 #### Step 2 - Create a Node-RED application
 - Select Node-RED Starter boilerplate on IBM Cloud catalog
