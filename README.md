@@ -37,6 +37,8 @@ Follow these steps to complete the tutorial.
 - Once you are in the main RED dashboard of your app, click in install tab and search for telegram
 - Then install "node-red-contrib-telegrambot"
 
+Note: if the Telegram nodes installation fails, please retry a couple of times.
+
 #### Step 4 - Use Telegram nodes
 - Add the "Telegram receiver" node
 - Then, add the bot created by inserting the name and the token received from \@BotFather
