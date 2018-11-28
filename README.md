@@ -118,7 +118,7 @@ Watson Assistant is being continuously updated. All info and code in these repos
 
 ## Outcomes
 
-
+<img src="img/outcome1.png" width="550">
 
 ## Disclaimer
 
