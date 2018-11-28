@@ -1,6 +1,6 @@
-# Create a Watson Assistant based Telegram bot with no coding skills
+# Create a Telegram bot with Watson!
 
-This tutorial will show how to integrate a Chatbot made with Watson Assistant into a Telegram bot built with Node-RED. No coding skills are needed!
+This tutorial will show how to integrate a Chatbot made with Watson into a Telegram bot built with Node-RED. No coding skills are needed!
 This tutorial collects all experience gained on Watson Assistant and Node-RED during ASL 2017-2018 sessions.
 
 ## Features
