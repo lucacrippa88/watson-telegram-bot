@@ -118,7 +118,11 @@ Watson Assistant is being continuously updated. All info and code in these repos
 
 ## Outcomes
 
+Outcome of conversation with audio message out.
 <img src="img/outcome1.png" width="550">
+
+Outcome of Visual Recognition feature. By now it only answers with the most probably recognition, but it's possible also to have the other options displayed.
+<img src="img/visualrec_outcome.png" width="550">
 
 ## Disclaimer
 
