@@ -112,6 +112,10 @@ An interesting feature that can be easily implemented is the Text to Speech serv
 <img src="img/speak.png" width="500">
 
 
+## Full flow
+
+<img src="img/full-flow.png" width="800">
+
 ## Videos
 
 Almost 5 videos are coming (Italian).
