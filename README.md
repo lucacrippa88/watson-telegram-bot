@@ -7,6 +7,12 @@ This tutorial collects all experience gained on Watson Assistant and Node-RED du
 
 The final bot will implement natural language chat, vocal message interactions, visual recognition on photos and sentences translation.
 
+- Receive vocal messages - easy to use, easy to listen!
+- Ask to translate sentences in many languages
+- Ask for support on the selected topic (in this demo: online retail store assistance)
+- Receive description of photos - you can use your own trained Watson Visual Recognition classifiers!
+
+
 ## Prerequisites
 
 Prerequisites to get this tutorial done are:
