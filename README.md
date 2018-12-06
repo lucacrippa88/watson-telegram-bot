@@ -118,6 +118,8 @@ In the picture below there is the full flow with all modules.
 
 <img src="img/full-flow.png" width="800">
 
+Please note: the Speech to Text flow (with F2 and F10 functions) is still in development, so it is not described in this guide.
+
 ## Videos
 
 Almost 5 videos are coming (Italian).
