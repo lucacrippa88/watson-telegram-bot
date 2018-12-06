@@ -114,6 +114,8 @@ An interesting feature that can be easily implemented is the Text to Speech serv
 
 ## Full flow
 
+In the picture below there is the full flow with all modules.
+
 <img src="img/full-flow.png" width="800">
 
 ## Videos
