@@ -7,10 +7,12 @@ This tutorial collects all experience gained on Watson Assistant and Node-RED du
 
 The final bot will implement natural language chat, vocal message interactions, visual recognition on photos and sentences translation.
 
+- Implement a Virtual Assistant with Telegram interface creating a Telegram bot
 - Receive vocal messages - easy to use, easy to listen!
 - Ask to translate sentences in many languages
 - Ask for support on the selected topic (in this demo: online retail store assistance)
 - Receive description of photos - you can use your own trained Watson Visual Recognition classifiers!
+- Save orders on DB and manage them (retrieve, edit and delete)
 
 
 ## Prerequisites
@@ -25,7 +27,7 @@ Prerequisites to get this tutorial done are:
 
 ## How to expect from this tutorial
 
-This tutorial will show you how to create a simple web-based interface for your Virtual Assistant and alternatively a Telegram Bot connected to Watson Assistant. All other technical activities are based on the native Node-RED flow interface.
+This tutorial will show you how to create a telegram-based interface for your Virtual Assistant with a Telegram bot. All other technical activities are based on the native Node-RED flow interface.
 
 
 ## Tutorial
@@ -110,6 +112,10 @@ Note: this step needs to train a Watson Assistant to understand translation scop
 An interesting feature that can be easily implemented is the Text to Speech service: this will send you output messages as audio messages, so you will be able to listen to your Assistant answers.
 
 <img src="img/speak.png" width="500">
+
+
+#### Step 9 - Adding Cloudant DB integration
+To be updated.
 
 
 ## Full flow
