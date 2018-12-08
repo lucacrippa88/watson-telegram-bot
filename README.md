@@ -118,7 +118,14 @@ An interesting feature that can be easily implemented is the Text to Speech serv
 
 The Node-RED Cloud Foundruy application created on IBM Cloud for this tutorial comes with a Cloudant DB. Cloudant is an IBM software delivered as a cloud-based service on IBM Cloud, and it is a non-relational (NoSQL) distributed database. By using Node-RED Cloudant nodes, you can easily integrate a DB on your application, making your Telegram bot more useful in day-by-day situations: as a customer orders something by iteracting with the bot, the confirmation of the order should be stored into a DB, to be available for check, controls, operations and cancellations.
 
-#### Step 9 - Adding Cloudant DB integration
+#### Step 9 - Save orders on DB
+The first integration between Node-RED Telegram bot is the ability to write customer's orders on the DB.
+
+#### Step 10 - Retrieve orders from DB
+
+#### Step 11 - Retrieve catalog from DB
+
+#### Step 11 - Delete orders on DB
 
 
 ## Full flow
