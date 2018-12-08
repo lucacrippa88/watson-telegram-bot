@@ -114,8 +114,11 @@ An interesting feature that can be easily implemented is the Text to Speech serv
 <img src="img/speak.png" width="500">
 
 
+### Pro Telegram Watson Assistant integration
+
+The Node-RED Cloud Foundruy application created on IBM Cloud for this tutorial comes with a Cloudant DB. Cloudant is an IBM software delivered as a cloud-based service on IBM Cloud, and it is a non-relational (NoSQL) distributed database. By using Node-RED Cloudant nodes, you can easily integrate a DB on your application, making your Telegram bot more useful in day-by-day situations: as a customer orders something by iteracting with the bot, the confirmation of the order should be stored into a DB, to be available for check, controls, operations and cancellations.
+
 #### Step 9 - Adding Cloudant DB integration
-To be updated.
 
 
 ## Full flow
