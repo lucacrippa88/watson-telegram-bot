@@ -1,5 +1,5 @@
-/* Function1.js
- * Initialize Telegram bot messages
+/* Function10.js
+ * Response transcription for Speech to Text
  * v 1.0
- * November 2018
+ * December 2018
  */
