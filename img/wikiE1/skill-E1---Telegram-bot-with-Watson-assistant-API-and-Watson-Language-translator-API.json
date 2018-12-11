@@ -1,0 +1,867 @@
+{
+  "name": "General purpose",
+  "intents": [
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Come cavolo posso parlare con una persona?"
+        },
+        {
+          "text": "Vaffanculo!"
+        },
+        {
+          "text": "Va a cagare!"
+        },
+        {
+          "text": "Ti odio."
+        },
+        {
+          "text": "Stronzo!"
+        },
+        {
+          "text": "Sono arrabbiato."
+        },
+        {
+          "text": "Smettila!"
+        },
+        {
+          "text": "Sei scemo."
+        },
+        {
+          "text": "Non mi piaci per niente."
+        },
+        {
+          "text": "Non ho parole, davvero."
+        },
+        {
+          "text": "Non farmi incazzare!"
+        },
+        {
+          "text": "Mi prendi in giro?"
+        },
+        {
+          "text": "Mascalzone!"
+        },
+        {
+          "text": "Ma non scherziamo!"
+        },
+        {
+          "text": "Mannaggia!"
+        },
+        {
+          "text": "Impossibile!"
+        },
+        {
+          "text": "Brutta esperienza."
+        },
+        {
+          "text": "Cerca di essere piacevole."
+        },
+        {
+          "text": "Che stupido!"
+        },
+        {
+          "text": "Fottiti!"
+        }
+      ],
+      "description": "Esprimi feedback sfavorevoli."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Buonasera, ho qualche domanda da farle, posso ?"
+        },
+        {
+          "text": "Ti trovo bene, buona sera"
+        },
+        {
+          "text": "Sto parlando con un computer?"
+        },
+        {
+          "text": "Salve operatore virtuale"
+        },
+        {
+          "text": "Salve, l' attivazione del pacchetto messaggi non e' ancora stato effettuato"
+        },
+        {
+          "text": "Saluti a lei"
+        },
+        {
+          "text": "Pronto per cominciare"
+        },
+        {
+          "text": "Non ho chiesto di parlare con un agente. Stavo per dire ciao a te"
+        },
+        {
+          "text": "Come ti senti?"
+        },
+        {
+          "text": "Ciao watson fornitore di informazioni"
+        },
+        {
+          "text": "Mi sei mancato."
+        },
+        {
+          "text": "La gente non è maleducata?"
+        },
+        {
+          "text": "Hai trascorso una buona giornata?"
+        },
+        {
+          "text": "Ehi tutto a posto?"
+        },
+        {
+          "text": "Ciao, ho dei problemi di navigazione nel vostro portale"
+        },
+        {
+          "text": "Ciao gemello informatico"
+        },
+        {
+          "text": "Ciao, avrei bisogno di una vostra consulenza"
+        },
+        {
+          "text": "Che succede, fratello"
+        },
+        {
+          "text": "Buon pomeriggio bot!"
+        },
+        {
+          "text": "Buongiorno Agent!"
+        }
+      ],
+      "description": "Saluta il bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Dietro un bot c'è un essere umano?"
+        },
+        {
+          "text": "Vorrei essere messo in contatto con un essere umano."
+        },
+        {
+          "text": "Sto parlando con Watson?"
+        },
+        {
+          "text": "Sto parlando con un essere umano oppure con un bot?"
+        },
+        {
+          "text": "Sei vero?"
+        },
+        {
+          "text": "Sei un essere umano oppure un bot?"
+        },
+        {
+          "text": "Sarai onesto con me?"
+        },
+        {
+          "text": "Preferisco essere connesso con una persona."
+        },
+        {
+          "text": "Potresti passarmi una persona dal mondo reale?"
+        },
+        {
+          "text": "Mi passi un agente che non sia virtuale?"
+        },
+        {
+          "text": "In quanti siete?"
+        },
+        {
+          "text": "In che tipo di relazione siamo, bot?"
+        },
+        {
+          "text": "Esisti solo nel mondo virtuale?"
+        },
+        {
+          "text": "Esisti in carne ed ossa?"
+        },
+        {
+          "text": "E' la comunicazione con bot?"
+        },
+        {
+          "text": "Dimmi tre cose di te."
+        },
+        {
+          "text": "Chi è questo?"
+        },
+        {
+          "text": "Chi sei?"
+        },
+        {
+          "text": "Cosa provi parlando con me?"
+        },
+        {
+          "text": "Di dove sei?"
+        }
+      ],
+      "description": "Chiedi se stai parlando con un umano o un robot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Esprimi preoccupazioni sulla sicurezza del bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Va bene, grazie mille allora"
+        },
+        {
+          "text": "Stammi bene."
+        },
+        {
+          "text": "Addio!"
+        },
+        {
+          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
+        },
+        {
+          "text": "ciao watson ti auguro una giornata bellissima"
+        },
+        {
+          "text": "Ehi penso che hai risolto il mio problema grazie"
+        },
+        {
+          "text": "Grazie di avermi aiutato. Ciao"
+        },
+        {
+          "text": "Grazie di tutto, è stato molto di aiuto"
+        },
+        {
+          "text": "Grazie watson parliamo dopo per quanto riguarda il pagamento della fattura"
+        },
+        {
+          "text": "Me ne sto andando."
+        },
+        {
+          "text": "Mi è piaciuto cooperare con te."
+        },
+        {
+          "text": "Non vedo l'ora di parlarti la prossima volta."
+        },
+        {
+          "text": "Pausa"
+        },
+        {
+          "text": "smetti questa sessione adesso"
+        },
+        {
+          "text": "sono contento che non devo parlare con gli umani ciao watson"
+        },
+        {
+          "text": "Spero di risentirla presto"
+        },
+        {
+          "text": "Sono curiso se ci sentiamo ancora."
+        }
+      ],
+      "description": "Termina la conversazione."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Come posso usare le funzionalità demo dell'agente?"
+        },
+        {
+          "text": "Posso visualizzare metriche settimanali"
+        },
+        {
+          "text": "Posso vedere le domande più frequenti?"
+        },
+        {
+          "text": "Mi piacerebbe sapere che tipo di problemi si possono risolvere per me."
+        },
+        {
+          "text": "Come posso creare una conversazione qui?"
+        },
+        {
+          "text": "Ciao, su quali argomenti puoi aiutarmi?"
+        },
+        {
+          "text": "Ciao. Potresti darmi un elenco di argomenti con cui puoi aiutarmi per favore?"
+        },
+        {
+          "text": "Ciao, come puoi essermi d'aiuto oggi?"
+        },
+        {
+          "text": "che tipo di assistenza mi puoi dare?"
+        },
+        {
+          "text": "Ho qualche domanda, e ho bisognoso di assistenza ... posso chiedere aiuto?"
+        },
+        {
+          "text": "Ho molte domande, può rispondere alle domande sui suoi servizi"
+        },
+        {
+          "text": "Fornisci assistenza generale? Non so cosa posso chiederti"
+        },
+        {
+          "text": "E' possibile ricevere un qualche tipo d'aiuto?"
+        },
+        {
+          "text": "Diavolo! Mi piacerebbe sapere che tipo di domande puoi rispondere per me."
+        },
+        {
+          "text": "Quali sono i comandi di aiuto?"
+        },
+        {
+          "text": "Senti puoi dirmi come puoi aiutarmi per favore?"
+        },
+        {
+          "text": "Voglio avere informazioni su una domanda frequente"
+        },
+        {
+          "text": "Puoi dirmi i tipi di cose con cui puoi aiutarmi?"
+        },
+        {
+          "text": "Puoi aspettare solo un attimo per favore?"
+        }
+      ],
+      "description": "Richiedi le funzionalità del bot."
+    },
+    {
+      "intent": "traduci",
+      "examples": [
+        {
+          "text": "puoi tradurmi questo?"
+        },
+        {
+          "text": "sai come si dice"
+        },
+        {
+          "text": "me lo dici in questa lingua?"
+        },
+        {
+          "text": "come si traduce?"
+        },
+        {
+          "text": "traduci"
+        },
+        {
+          "text": "come si dice"
+        },
+        {
+          "text": "traduci in spagnolo"
+        },
+        {
+          "text": "puoi tradurre dall'italiano all'inglese?"
+        }
+      ],
+      "description": "richiesta di tradurre una frase"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Complimenti vivissimi!"
+        },
+        {
+          "text": "Bella storia!"
+        },
+        {
+          "text": "Benissimo!"
+        },
+        {
+          "text": "Complimenti!"
+        },
+        {
+          "text": "Grazie mille!"
+        },
+        {
+          "text": "Magnifico!"
+        },
+        {
+          "text": "Mi hai aiutato tantissimo."
+        },
+        {
+          "text": "Mi hai colpito."
+        },
+        {
+          "text": "Mi piace veramente."
+        },
+        {
+          "text": "Non vedo l'ora di collaborare di nuovo con te."
+        },
+        {
+          "text": "Sei bravissimo! Non posso crederci."
+        },
+        {
+          "text": "Sei in gamba, davvero!"
+        },
+        {
+          "text": "Sei saggio."
+        },
+        {
+          "text": "Sei stato bravo, sul serio."
+        },
+        {
+          "text": "Sei un genio."
+        },
+        {
+          "text": "Sono affascinato!"
+        },
+        {
+          "text": "Sono contento."
+        },
+        {
+          "text": "Sono soddisfatto."
+        },
+        {
+          "text": "stupendo!"
+        },
+        {
+          "text": "Tante grazie!"
+        }
+      ],
+      "description": "Esprimi un sentimento positivo o gratitudine."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Su quale sistema operativo è il bot?"
+        },
+        {
+          "text": "Sei una dashboard"
+        },
+        {
+          "text": "Riesci a descriverti?"
+        },
+        {
+          "text": "puoi scoprire la mia ubicazione watson"
+        },
+        {
+          "text": "Non capisco come funziona il vostro sito, mi puoi aiutare?"
+        },
+        {
+          "text": "Mi dici il tuo nome?"
+        },
+        {
+          "text": "Il buon Watson è troppo intelligente"
+        },
+        {
+          "text": "Informazioni tecniche su agente virtuale watson"
+        },
+        {
+          "text": "Aiutami a capire come verificare la tua funzionalità"
+        },
+        {
+          "text": "Che differenza c'è con altre chat?"
+        },
+        {
+          "text": "Vorrei sapere come creare un chat bot"
+        },
+        {
+          "text": "Sei un rappresentante ufficiale della conversazione?"
+        },
+        {
+          "text": "Diventiamo amici?"
+        },
+        {
+          "text": "E per quel che riguarda te? Cosa si dice?"
+        },
+        {
+          "text": "Esisti davvero oppure sei solo virtuale?"
+        },
+        {
+          "text": "Hai un nomignolo?"
+        },
+        {
+          "text": "Ho bisogno di informazioni sul prezzo di Watson"
+        }
+      ],
+      "description": "Richiedi attributi personali generici."
+    },
+    {
+      "intent": "lingueconosciute",
+      "examples": [
+        {
+          "text": "cosa sei in grado di tradurre?"
+        },
+        {
+          "text": "che traduzioni posso fare?"
+        },
+        {
+          "text": "quante lingue conosci?"
+        },
+        {
+          "text": "oltre all'italiano quali lingue conosci?"
+        },
+        {
+          "text": "quali lingue sai tradurre?"
+        },
+        {
+          "text": "quali lingue parli?"
+        }
+      ],
+      "description": "per capire in quanti modi è possibile tradurre"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Sto cercando di trovare una persona sul telefono, non una macchina automatica. Come posso parlare con una persona al supporto clienti? grazie"
+        },
+        {
+          "text": "Esiste un numero del servizio clienti della compagnia telefonica che posso usare per parlare direttamente con un operatore?"
+        },
+        {
+          "text": "Come posso saltare il menu registrato e andare dritto ad una persona viva?"
+        },
+        {
+          "text": "Collegarmi a un operatore vivente per favore."
+        },
+        {
+          "text": "Collegami a un operatore"
+        },
+        {
+          "text": "Ciao. Potresti passare la mia chiamata a un operatore in carne e ossa per favore? Vorrei parlare direttamente con un essere umano."
+        },
+        {
+          "text": "Voglio parlare della gestione del profilo con un agente"
+        },
+        {
+          "text": "Voglio parlare con un operatore al telefono"
+        },
+        {
+          "text": "Voglio parlare con un addetto all'assistenza clienti."
+        },
+        {
+          "text": "Voglio che mi mettiate in contatto con un operatore che mi può aiutare, non con una macchina"
+        },
+        {
+          "text": "Puoi solamente mandarmi un numero di telefono per parlare con un rappresentante commerciale umano?"
+        },
+        {
+          "text": "Posso parlare con un operatore in carne e ossa?"
+        },
+        {
+          "text": "Posso avere i contatti per parlare con un operatore attivo?"
+        },
+        {
+          "text": "Per favore posso parlare con un consulente della mia bolletta"
+        },
+        {
+          "text": "Per favore mi collega ad un agente umano che parla inglese bene."
+        },
+        {
+          "text": "Per favore aiutarmi a raggiungere un agente"
+        },
+        {
+          "text": "Per favore aiutarmi a connettersi ad un agente"
+        },
+        {
+          "text": "Ho provato a compilare il modulo online, ma ci vogliono giorni. Voglio parlare con qualcuno che può farlo adesso"
+        },
+        {
+          "text": "Ho bisogno di parlare con una persona reale piuttosto che comunicare con un sistema di risposta automatica, per favore."
+        },
+        {
+          "text": "Fammi parlare con un essere umano per favore"
+        }
+      ],
+      "description": "Richiedi un agente umano."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Cosa mi racconti di divertente?"
+        },
+        {
+          "text": "Che mi racconti di bello?"
+        },
+        {
+          "text": "Ci mettiamo a ballare per trovare la soluzione?"
+        },
+        {
+          "text": "C'era una volta un bot..."
+        },
+        {
+          "text": "C'era una volta un problema con la connessione... Racconta una favola sulla rete."
+        },
+        {
+          "text": "Conosci quella barzelletta?"
+        },
+        {
+          "text": "Vuoi cantarmi la soluzione?"
+        },
+        {
+          "text": "Un bot con I capelli rossi..."
+        },
+        {
+          "text": "Ti piace scherzare?"
+        },
+        {
+          "text": "Ti diverti ogni tanto?"
+        },
+        {
+          "text": "Sei un bot divertente?"
+        },
+        {
+          "text": "Sei tu la barzelletta?"
+        },
+        {
+          "text": "Scrivimi la soluzione nei  versi."
+        },
+        {
+          "text": "Mi racconti una barzelletta?"
+        },
+        {
+          "text": "Mi annoio."
+        },
+        {
+          "text": "Ma la nostra conversazione è uno scherzo?"
+        },
+        {
+          "text": "Hai il senso di umorismo?"
+        },
+        {
+          "text": "Giochiamo finché non troviamo la soluzione?"
+        },
+        {
+          "text": "E' divertente la vita virtuale?"
+        },
+        {
+          "text": "Dimmi una barzelletta."
+        }
+      ],
+      "description": "Richiedi una battuta."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "lingue",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Italiano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inglese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Francese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spagnolo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arabo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cinese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tedesco",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "it",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Fai la traduzione",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1542016086885",
+      "context": {
+        "action": "traduci"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_4_1542016484444"
+    },
+    {
+      "type": "standard",
+      "title": "Da questa lingua",
+      "output": {
+        "text": {
+          "values": [
+            "In quale lingua vuoi tradurre?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1542015863127",
+      "context": {
+        "source": "@lingue"
+      },
+      "metadata": {},
+      "conditions": "@lingue",
+      "dialog_node": "node_2_1542015940313"
+    },
+    {
+      "type": "standard",
+      "title": "Fai la traduzione",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1542029192713",
+      "context": {
+        "action": "identifica"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_6_1542030847780"
+    },
+    {
+      "type": "standard",
+      "title": "a questa lingua",
+      "output": {
+        "text": {
+          "values": [
+            "Quale testo vuoi tradurre?"
+          ]
+        }
+      },
+      "parent": "node_2_1542015940313",
+      "context": {
+        "destination": "@lingue"
+      },
+      "metadata": {},
+      "conditions": "@lingue",
+      "dialog_node": "node_3_1542016086885"
+    },
+    {
+      "type": "standard",
+      "title": "Cosa conosco",
+      "output": {
+        "text": {
+          "values": [
+            "Al momento posso tradurre in Italiano, Inglese e Tedesco."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#lingueconosciute",
+      "dialog_node": "node_8_1542033374826",
+      "previous_sibling": "node_1_1542015863127"
+    },
+    {
+      "type": "standard",
+      "title": "In altri casi",
+      "output": {
+        "text": {
+          "values": [
+            "Non ho capito. Puoi riformulare la frase?",
+            "Puoi ripetere usando altre parole? Non ho capito.",
+            "Non ho capito cosa mi hai detto."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "In altri casi",
+      "previous_sibling": "node_8_1542033374826"
+    },
+    {
+      "type": "standard",
+      "title": "Traduci",
+      "output": {
+        "text": {
+          "values": [
+            "Da quale lingua vuoi tradurre?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#traduci",
+      "dialog_node": "node_1_1542015863127",
+      "previous_sibling": "node_5_1542029192713"
+    },
+    {
+      "type": "standard",
+      "title": "Saluto",
+      "output": {
+        "text": {
+          "values": [
+            "Ciao, sono un agente virtuale esperto nelle traduzioni, cosa posso tradurre per te?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1542032907976",
+      "previous_sibling": "Benvenuto"
+    },
+    {
+      "type": "standard",
+      "title": "Traduci con lingua",
+      "output": {
+        "text": {
+          "values": [
+            "Certo! Che testo vuoi tradurre?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "lingue": "<? entities[\"lingue\"] ?>"
+      },
+      "metadata": {},
+      "conditions": "#traduci && @lingue",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1542029192713",
+      "previous_sibling": "node_7_1542032907976"
+    },
+    {
+      "type": "standard",
+      "title": "Benvenuto",
+      "output": {
+        "text": {
+          "values": [
+            "Salve. Come posso aiutarti?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Benvenuto"
+    }
+  ],
+  "workspace_id": "c4b0da07-8d7a-475f-a86a-071160de5d1a",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
