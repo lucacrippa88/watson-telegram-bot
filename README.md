@@ -25,7 +25,7 @@ Prerequisites to get this tutorial done are:
 3. Make sure you completed this tutorial to have a custom Virtual Assistant with Watson Assistant: https://github.com/lucacrippa88/watson-assistant-training
 4. You are done with prerequisites!
 
-## How to expect from this tutorial
+## What to expect from this tutorial
 
 This tutorial will show you how to create a telegram-based interface for your Virtual Assistant with a Telegram bot. All other technical activities are based on the native Node-RED flow interface.
 
