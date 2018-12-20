@@ -7,6 +7,8 @@ Look here for full information about TJBot and how to setup it: https://github.c
 
 In this tutorial and related wiki page is shown how to control a TJBot writing to a Telegram bot. 
 
+<img href="https://github.com/lucacrippa88/watson-telegram-bot/blob/master/img/tjbot_telegram.jpg" width="400px">
+
 ### What TJBot can do?
 
 You can write to TJBot in order to perform the following actions:
