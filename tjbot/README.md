@@ -1,9 +1,11 @@
+# Control a TJBot with Telegram
+
 ## What is TJBot?
 
 Look here for full information about TJBot and how to setup it: https://github.com/fmanclossi/TJBot-playbook
 
 
-## Control a TJBot with Telegram
+## Telegram interaction
 
 In this tutorial and related wiki page is shown how to control a TJBot writing to a Telegram bot. 
 
