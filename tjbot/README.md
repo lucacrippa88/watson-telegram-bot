@@ -55,4 +55,5 @@ In my personal opinion, what are the differences between TJBot (powered by Watso
 - Seventh, it can be trained on your very own problem, and it can be capable to answer complex questions based on your ecosystem, data and hystory.
 - Eighth, your data are yours, securely bounded inside the Watson services inside your IBM Cloud account. They cannot be used to train general purpose Watson services.
 
-The final question: is Watson better then a smart speaker? They are different: they have different targets, different audience and different scope.
+The final question: is Watson better then a smart speaker? 
+They are different: they have different targets, different audience and different scope.
