@@ -42,9 +42,9 @@ Currently the answers are provided to Node-RED debug console. Next step will be 
 Tutorial starts in this wiki page: https://github.com/lucacrippa88/watson-telegram-bot/wiki/TJBot-interacting-with-human-using-Telegram
 
 
-## More info
+## My personal opinion
 
-In my personal opinion, what are the differences between TJBot (powered by Watson) and a smart speaker for home automation?
+What are the differences between TJBot (powered by Watson) and a smart speaker for home automation?
 
 - First, TJBot is built over an open source software stack (Node-RED on Raspbian) and on a powerful and complete hardware (the Raspberry Pi 3b).
 - Second, it can be enriched with all available and open source sensors, servo motors and so on.
